@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun initUI(){
-        editView = findViewById(R.id.edit_view)
+        editView = findViewById(R.id.password_edit_view)
         encrypt = findViewById(R.id.encrypt)
         decrypt = findViewById(R.id.decrypt)
     }

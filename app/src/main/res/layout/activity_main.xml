@@ -5,13 +5,26 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-
     <EditText
-        android:id="@+id/edit_view"
+        android:id="@+id/account_edit_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:ignore="MissingConstraints"
-        tools:text="hhhhhh" />
+        android:hint="登录号码"/>
+
+    <EditText
+        android:id="@+id/key_edit_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        android:hint="解密钥匙"/>
+
+    <EditText
+        android:id="@+id/password_edit_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        android:hint="登录密码"/>
 
     <RelativeLayout
         android:layout_width="match_parent"
